@@ -19,7 +19,7 @@ int buttonState2; //значение кнопки 2
 char ssid[] = "Keenetic-9667"; //название сети  
 char pass[] = "aLTY2wkf"; //пароль 
 // инициализация Telegram BOT 
-const char* BOTtoken = "5374463164:AAECyMAjChYLDL1Qxz383o-ViV393Y4qyVw"; //токен бота  
+const char* BOTtoken = ""; //токен бота  
 WiFiClientSecure client;  
 TelegramBot bot(BOTtoken,client); 
 
